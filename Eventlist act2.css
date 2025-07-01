@@ -1,0 +1,183 @@
+/* ===== Global Styles ===== */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff6f8;
+  color: black;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Headings and paragraph styling */
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 0.95rem;
+  margin: 0.5rem 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  text-align: left;
+  padding: 4px 0;
+}
+
+/* ===== Box Wrapper ===== */
+.box {
+  background: rgba(255, 255, 255, 0.95);
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 960px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* ===== Buttons ===== */
+button {
+  background-color: #dd0926;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 0.95rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #e40606;
+}
+
+/* ===== Event Categories Section ===== */
+.events_categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 10px;
+}
+
+.events_categories ul {
+  background-color: rgb(241, 7, 230);
+  border: 2px solid #da0a0a;
+  border-radius: 10px;
+  padding: 15px;
+  width: 230px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.events_categories ul h3 {
+  background-color: #4311b8;
+  color: rgb(211, 7, 7);
+  margin: -12px -12px 10px -12px;
+  padding: 7px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  font-size: 1rem;
+}
+
+/* ===== Contact Form ===== */
+.contact-form {
+  width: 95%;
+  max-width: 700px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  text-align: left;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 0.95rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 4px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.contact-form button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 12px;
+}
+
+/* ===== Testimonials ===== */
+blockquote {
+  font-style: italic;
+  background: #0bd619;
+  padding: 16px;
+  border-left: 5px solid #d61010;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+blockquote footer {
+  text-align: right;
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 768px) {
+  .events_categories {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    padding: 16px;
+  }
+
+  .contact-form {
+    padding: 16px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+  }
+
+  button {
+    font-size: 1rem;
+  
